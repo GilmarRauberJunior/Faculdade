@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Calculaora",
+            "request": "launch",
+            "mainClass": "Calculaora",
+            "projectName": "ALGII_92f9802e"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
