@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Mdc",
+            "request": "launch",
+            "mainClass": "Mdc",
+            "projectName": "ALGII_92f9802e"
+        },
+        {
+            "type": "java",
+            "name": "BuscaBinariaRecursiva",
+            "request": "launch",
+            "mainClass": "BuscaBinariaRecursiva",
+            "projectName": "ALGII_92f9802e"
+        },
+        {
+            "type": "java",
+            "name": "Recorrencia",
+            "request": "launch",
+            "mainClass": "Recorrencia",
+            "projectName": "ALGII_92f9802e"
+        },
+        {
+            "type": "java",
+            "name": "Ado2",
+            "request": "launch",
+            "mainClass": "Ado2",
+            "projectName": "ALGII_92f9802e"
+        },
+        {
+            "type": "java",
+            "name": "Ado2",
+            "request": "launch",
+            "mainClass": "Ado2",
+            "projectName": "ALGII_61939866"
+        },
+        {
+            "type": "java",
             "name": "Calculaora",
             "request": "launch",
             "mainClass": "Calculaora",
