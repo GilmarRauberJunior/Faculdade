@@ -8,22 +8,41 @@ public class Lista2Ex3 {
 
         int[][] matriz = new int[12][12];
 
+        String operacao = scan.next();
+
         for(int i = 0; i < matriz.length; i++){
             for (int j = 0; j < matriz[i].length; j++) {
                 matriz[i][j] = rnd.nextInt(11);
             }
         }
 
-        for(int i = 0; i < matriz.length; i++){
-            System.out.print("[");
-            for (int j = 0; j < matriz[i].length; j++) {
-                if(j > i){
-                    System.out.printf("%3d", matriz[i][j]);
+        switch(operacao){
+            case "M" -> {
+                double media = 0;
+                
+                for(int i = 0; i < matriz.length; i++){
+                    for(int j = i + 1; j < matriz[i].length; j++){
+                        media = media + matriz[i][j];
+                    }
                 }
+                media /= 66;
+                
+                System.out.printf("%.1f", media);
             }
-            System.out.println("]");
+            
+            case "S" -> {
+                double soma = 0;
+                
+                for(int i = 0; i < matriz.length; i++){
+                    for(int j = 0; j < matriz[i].length; j++){
+                        soma += matriz[i][j];
+                    }
+                }
+                
+                System.out.printf("%.1f", soma);
+            }
         }
-
+        
         scan.close();
 
     }
