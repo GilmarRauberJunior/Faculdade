@@ -13,9 +13,6 @@ public class Lista1Ex6 {
             if(numero%2 == 0 && (numero > 1 || numero < -1)){
                 vetorPar[i] = numero;
                 System.out.printf("par[%d] = %d%n", i, vetorPar[i]);
-            if(vetorPar.length == 5){
-
-            }
             }else if(numero != 0){
                 vetorImpar[i] = numero;
                 System.out.printf("impar[%d] = %d%n", i, vetorImpar[i]);

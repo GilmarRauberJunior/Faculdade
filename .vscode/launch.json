@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "teste",
+            "request": "launch",
+            "mainClass": "teste",
+            "projectName": "ALGII_61939866"
+        },
+        {
+            "type": "java",
+            "name": "Lista1Ex6",
+            "request": "launch",
+            "mainClass": "Lista1Ex6",
+            "projectName": "ALGII_61939866"
+        },
+        {
+            "type": "java",
             "name": "Lista2Ex4",
             "request": "launch",
             "mainClass": "Lista2Ex4",
