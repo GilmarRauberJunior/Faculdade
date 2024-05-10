@@ -14,6 +14,41 @@
         },
         {
             "type": "java",
+            "name": "teste",
+            "request": "launch",
+            "mainClass": "teste",
+            "projectName": "ALGII_61939866"
+        },
+        {
+            "type": "java",
+            "name": "Lista1Ex6",
+            "request": "launch",
+            "mainClass": "Lista1Ex6",
+            "projectName": "ALGII_61939866"
+        },
+        {
+            "type": "java",
+            "name": "Lista2Ex4",
+            "request": "launch",
+            "mainClass": "Lista2Ex4",
+            "projectName": "ALGII_61939866"
+        },
+        {
+            "type": "java",
+            "name": "Lista2Ex3",
+            "request": "launch",
+            "mainClass": "Lista2Ex3",
+            "projectName": "ALGII_61939866"
+        },
+        {
+            "type": "java",
+            "name": "Ado2test",
+            "request": "launch",
+            "mainClass": "Ado2test",
+            "projectName": "ALGII_61939866"
+        },
+        {
+            "type": "java",
             "name": "Mdc",
             "request": "launch",
             "mainClass": "Mdc",
