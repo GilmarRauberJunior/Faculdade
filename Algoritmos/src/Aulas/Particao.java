@@ -15,13 +15,13 @@ public class Particao {
         System.out.println(Arrays.toString(vetor));
 
         //Executando e quardando o valor retrnado da função
-        int pos = organizador(vetor);
+        int pos = particao(vetor);
 
         System.out.printf("%n%nA posição é: %d%n", pos);
         System.out.println(Arrays.toString(vetor));
     }
 
-    public static int organizador(int[] vetor){
+    public static int particao(int[] vetor){
         int num = vetor[0];
         int i = 1;
         int j = vetor.length-1;
