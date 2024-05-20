@@ -27,5 +27,7 @@ public class Lista3Ex1 {
             casos --;
         }
 
+        scan.close();
+
     }
 }
