@@ -1,33 +1,38 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Lista3Ex1 {
     public static void main(String[] args) {
         
         Scanner scan = new Scanner(System.in);
+        
+        int n = Integer.parseInt(scan.nextLine());
 
-        String frase;
+		for(int q=0 ; q<n ; q++){
+			String entrada = scan.nextLine();
+			String[] entr = entrada.split(" ");
+			List<String> lista = new ArrayList<>();
 
-        int casos = scan.nextInt();
+			for(int i=0 ; i<entr.length ; i++)
+				lista.add(entr[i]);
+			
+			 while(!lista.isEmpty()) {
+		            String maior = "";
+		            for(String x : lista) 
+		                if(x.length() > maior.length())
+		                    maior = x;
 
-        while(casos > 0){
-            frase = scan.nextLine();
-            String[] palavra = frase.split(" ");
-
-            for (int i = 0; i < palavra.length - 1; i++) {
-                for (int j = 0; j < palavra.length - 1 - i; j++) {
-                    if (palavra[j].compareTo(palavra[j+1]) > 0) {
-                        String aux = palavra[j];
-                        palavra[j] = palavra[j + 1];
-                        palavra[j + 1] = aux;
-                    }
-                    System.out.printf("%s ", palavra[j]);
-                }
-            }
-
-            casos --;
-        }
-
-        scan.close();
+		            System.out.printf("%s",maior);
+		            if(lista.contains(maior))  //antes usava while
+		                lista.remove(maior);
+		            
+					if(!lista.isEmpty()) 
+						System.out.printf(" ");
+		        }
+				System.out.println("");
+		}
+		scan.close();
 
     }
 }
